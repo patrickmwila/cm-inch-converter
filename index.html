@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cm-inch converter</title>
+
+  <!--link to css-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="calc-page">
+    <div class="calc-title">
+      <p>Centimeter-Inch <br>Converter</p>
+    </div>
+
+    <div class="calc-container">
+      <div class="calc-compute">
+        <input id="input-box" class="text-box" type="text">
+        <div class="btns">
+          <button id="cm-btn" class="btn" onclick="toCm()">Convert to cm</button>
+          <button id="inch-btn" class="btn" onclick="toInch()">Convert to inch</button>
+        </div>
+      </div>
+    
+      <div class="calc-operator"> <p>=</p></div>
+      <div class="calc-result">
+        <p id="result"></p>
+      </div>
+    </div>
+  </div>
+
+  <!--link to javascript-->
+  <script src="./app.js"></script>
+</body>
+</html>
